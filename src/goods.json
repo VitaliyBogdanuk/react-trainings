@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "title": "Ball",
+    "price": "10",
+    "img": "http://www.goll.com.ua/1329-large_default/futbolnyj-myach-adidas-pro-ligue-1-az3544.jpg",
+    "description": ""
+  },
+  {
+    "id": "2",
+    "title": "Backpack",
+    "price": "20",
+    "img": "http://sumki-shop.com.ua/files/katalog/7409_pic.jpg",
+    "description": ""
+  },
+  {
+    "id": "3",
+    "title": "Shoes",
+    "price": "35",
+    "img": "https://sladan.com.ua/image/cache/catalog/seller_prod/seller_4831/79720522_374354845_w640_h640_5fe9658582b300__3786af96fe-500x500.jpg",
+    "description": ""
+  },
+  {
+    "id": "4",
+    "title": "Bicycle",
+    "price": "120",
+    "img": "https://images.ua.prom.st/427714776_w0_h0_cid2372953_pid286644840-03128554.jpg",
+    "description": ""
+  },
+  {
+    "id": "5",
+    "title": "Bicycle helmet",
+    "price": "23",
+    "img": "https://images.ua.prom.st/1095645572_w640_h640_cid2388088_pid664506578-78515ff4.jpg",
+    "description": ""
+  },
+  {
+    "id": "6",
+    "title": "Shorts",
+    "price": "15",
+    "img": "http://www.goll.com.ua/3260-large_default/shorty-igrovye-nike-league-knit-short-725881-100-belye.jpg",
+    "description": ""
+  },
+  {
+    "id": "7",
+    "title": "T-shirt",
+    "price": "16",
+    "img": "https://www.fatline.com.ua/images/products/backs/m_f_7.png",
+    "description": ""
+  },
+  {
+    "id": "8",
+    "title": "Dumbbell",
+    "price": "13",
+    "img": "http://www.gipara.com/img/cache/mainproduct/products/5/main_FWPEJ.jpg",
+    "description": ""
+  },
+  {
+    "id": "9",
+    "title": "Ski",
+    "price": "60",
+    "img": "https://images.ua.prom.st/954163890_w640_h640_cid512258_pid605258098-e6cbfae8.jpg",
+    "description": ""
+  },
+  {
+    "id": "10",
+    "title": "Boxing gloves",
+    "price": "55",
+    "img": "https://budopt.ua/image/cache/400-400/data/item/sports/box/boxer_perchyatki/xbokserskie_perchyatki_boxer_8oz_kojvinil_04.jpg.pagespeed.ic.wduyN3K6NO.jpg",
+    "description": ""
+  }
+]

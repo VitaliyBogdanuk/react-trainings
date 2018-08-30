@@ -1,0 +1,63 @@
+.store-container, .test-router-container {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+.store, .test-router {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1230px;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+
+  .product-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3.75rem;
+  }
+
+  .store-header, .test-router-header {
+    flex: 1;
+    color: #58a7dd;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom:30px;
+  }
+
+  .store-text, .test-router-text {
+    flex: 4;
+    color: #75b0cd;
+    font-size: 26px;
+  }
+
+  .store-buttons {
+    display: flex;
+    width:140px;
+    margin:auto;
+
+
+    .store-plus, .store-minus {
+      color: white;
+      cursor: pointer;
+      width:70px;
+      padding-top:15px;
+      padding-bottom:15px;
+      text-align: center;
+      font-size: 40px;
+
+      &:hover {
+        background-color: #75b0cd;
+      }
+    }
+  }
+
+  .store-sum {
+    color: white;
+    font-size: 60px;
+  }
+}

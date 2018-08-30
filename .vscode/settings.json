@@ -1,2 +1,28 @@
 {
+	// Enable/disable default JavaScript formatter (For Prettier)
+	// "javascript.format.enable": false,
+	"files.trimTrailingWhitespace": true,
+	"editor.renderWhitespace": "all",
+	"workbench.startupEditor": "none",
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"files.eol": "\n",
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true,
+		"**/package-lock.json": true
+	},
+	"javascript.validate.enable": false,
+	"git.enableSmartCommit": true,
+	// Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.formatOnSave": true
+	},
+	"eslint.autoFixOnSave": true,
+	"eslint.alwaysShowStatus": true,
 }

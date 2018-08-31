@@ -1,7 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-// import BuyButton from '../BuyButton/BuyButton'
-// import RemoveButton from '../RemoveButton/RemoveButton'
 
 import './styles.scss'
 

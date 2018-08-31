@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ProductItem from './ProductItem/ProductItem'
+import CartItem from './CartItem/CartItem'
 
 import './styles.scss'
 
@@ -32,19 +33,33 @@ class Products extends React.Component {
     const listItems = products.map((product) =>
       <ProductItem key={product.id} product={product} updateData={this.updateData} />
     )
+    const cartItemsCount = this.state.cart.length
+    const cartItems = this.state.cart.map((item) =>
+      <CartItem key={item.id} product={item} />
+    )
+    console.log(cartItemsCount)
     console.log(this.state.cart)
 
     return (
       <div className="store-container">
         <div className="store">
           <div className="store-header">The Best Sport Store!</div>
+          <table>
+            <caption className="store-text">In your cart: {cartItemsCount} items!</caption>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              {cartItems}
+            </tbody>
+          </table>
           <div className="product-list">
             {listItems}
           </div>
-          <div className="store-text">
-            I decided to be super original and added +/- button to show you Redux works
-          </div>
-          <div className="store-sum"></div>
         </div>
       </div>
     )
